@@ -108,29 +108,54 @@ const projects = [
 
 const certifications = [
   {
-    title: "Ciencia de Datos (en curso)",
+    title: "Ciencia de Datos",
     org: "Universidad de los Andes",
     details: [
+      "Programa finalizado",
       "Modelos predictivos en Python",
-      "Explorar/transformar/integrar datos estructurados y no estructurados"
+      "Análisis exploratorio y estadístico de datos",
+      "Integración y transformación de datos (ETL)"
+    ]
+  },
+  {
+    title: "Desarrollo de Software (en curso)",
+    org: "Formación técnica / tecnológica",
+    details: [
+      "Fundamentos de programación",
+      "Estructuras de datos y lógica",
+      "Buenas prácticas de desarrollo",
+      "Control de versiones con Git y GitHub"
     ]
   },
   {
     title: "Análisis de Datos con Power BI",
     org: "Microsoft",
-    details: ["Power Query", "Modelar y visualizar datos"]
+    details: [
+      "Power Query",
+      "Modelado de datos",
+      "Visualización y dashboards ejecutivos"
+    ]
   },
   {
     title: "Fundamentos de Ingeniería de Datos",
     org: "IBM",
-    details: ["ETL con Python (Pandas/Numpy)", "SQL y bases de datos relacionales"]
+    details: [
+      "ETL con Python (Pandas, NumPy)",
+      "SQL y bases de datos relacionales",
+      "Procesamiento de datos estructurados"
+    ]
   },
   {
     title: "Fundamentos IBM DevOps, nube y Agile",
     org: "IBM",
-    details: ["Conceptos DevOps", "Prácticas ágiles", "CI/CD"]
+    details: [
+      "Principios DevOps",
+      "CI/CD",
+      "Metodologías ágiles"
+    ]
   }
 ];
+
 
 // ---------- Render ----------
 document.getElementById("year").textContent = new Date().getFullYear();
